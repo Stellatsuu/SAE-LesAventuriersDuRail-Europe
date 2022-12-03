@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root alignment="CENTER" prefHeight="127.0" prefWidth="200.0" type="HBox" xmlns="http://javafx.com/javafx/17.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <StackPane fx:id="destinationsJoueurCourant" onMouseClicked="#switchDestination" alignment="BOTTOM_CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-padding: 0 0 8 0;" />
+      <HBox fx:id="cartesJoueurCourant" alignment="BOTTOM_CENTER" style="-fx-padding: 0 10 50 0;" />
+      <HBox fx:id="conteneurJoueur" alignment="BOTTOM_CENTER" prefHeight="141.0" prefWidth="124.0" style="-fx-background-color: #A8A3A3; -fx-padding: 0 0 15 20; -fx-background-radius: 10;">
+         <children>
+            <VBox prefHeight="100.0" prefWidth="139.0">
+               <children>
+                  <ImageView fx:id="imageJoueur" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <VBox.margin>
+                        <Insets left="10.0" top="5.0" />
+                     </VBox.margin></ImageView>
+                  <Label fx:id="nomJoueur" alignment="CENTER" contentDisplay="CENTER" prefHeight="25.0" prefWidth="97.0" style="-fx-background-color: #E9E9E9; -fx-background-radius: 10;" textAlignment="CENTER">
+                     <padding>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets left="5.0" top="5.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="50.0">
+               <children>
+                  <ImageView fx:id="imageWagons" fitHeight="50.0" fitWidth="66.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="imageGares" fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label text="Score">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children></VBox>
+            <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label fx:id="wagonsJoueur" prefHeight="18.0" prefWidth="50.0" text="Wagons">
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="garesJoueur" prefWidth="38.0" text="Gares">
+                     <VBox.margin>
+                        <Insets top="30.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="scoreJoueur" prefWidth="38.0" text="Score">
+                     <VBox.margin>
+                        <Insets top="30.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+         <HBox.margin>
+            <Insets bottom="10.0" right="10.0" />
+         </HBox.margin>
+      </HBox>
+   </children>
+</fx:root>
