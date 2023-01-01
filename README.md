@@ -28,7 +28,7 @@ Un code fonctionnel du jeu entier était fourni *(dans le cas où le code de la 
 Une analyse de l'existant et une maquette étaient nécessaires avant de se lancer dans la conception graphique, nous avions besoin d'un aperçu du produit final.
 Une fois celles-ci établies, il ne restait qu'à coder l'interface, avec le peu de notions JavaFX que nous avions eu en cours.
 
-- [Lien vers l'analyse](https://miro.com/app/board/uXjVO9rRbbA=/?share_link_id=422869759569)
+- [Lien vers l'analyse](https://miro.com/app/board/uXjVP1igxFM=/?share_link_id=584840438594)
 - [Lien vers la maquette](https://www.figma.com/file/OCPdSh4s9XPoDoIWDVhQyW/SAE-IHM?node-id=0%3A1&t=pLc3MQrAWFa688Ya-1)
 
 **Note individuelle obtenue : 14.25/20**
